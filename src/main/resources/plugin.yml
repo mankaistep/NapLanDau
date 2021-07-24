@@ -1,0 +1,12 @@
+name: NapLanDau
+version: 1.0
+main: manaki.plugin.naplandau.NapLanDau
+softdepend:
+  - ReCard
+commands:
+  naplandau:
+    description: Dich me
+  naplandauadmin:
+    permission: naplandau.admin
+    permission-message: No permission
+    description: Hihi
